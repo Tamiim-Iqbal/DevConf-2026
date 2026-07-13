@@ -99,6 +99,7 @@ nav{
 }
 .speaker-img{
     border-radius: 12px 12px 0px 0px;
+    width: 100%;
 }
 .card-text{
     padding: 24px;
@@ -120,9 +121,10 @@ nav{
     color: #575757;
 }
 
+
 /* Spot / Membership */
 .membership-container{
-    max-width: 70%;
+    max-width: 75%;
     margin: 0 auto;
 }
 .membership-top-title{
@@ -223,12 +225,39 @@ nav{
     margin-top: 10px;
 }
 
+
+/* Sponsors */
+.sponsor-info{
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sponsor-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.sponsor-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 70px;
+}
+.sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /* Footer */
 .footer {
     margin-top: 50px;
     background-color: #0D1B2A;
 }
-
 .footer-top {
   display: flex;
   justify-content: space-between;
@@ -244,24 +273,20 @@ nav{
 .footer-logo img {
   height: 50px;
 }
-
 .social-links {
   display: flex;
   gap: 1rem;
 }
-
 .social-links a {
   color: white;
   font-size: 1.25rem;
   text-decoration: none;
 }
-
 .footer hr {
   margin: 1.5rem 0;
   border: none;
   border-top: 1px solid #ddd;
 }
-
 .footer-bottom {
   text-align: center;
   font-size: 0.9rem;
