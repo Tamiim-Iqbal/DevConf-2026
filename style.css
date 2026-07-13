@@ -118,5 +118,107 @@ nav{
     font-size: 14px;
     font-weight: 400;
     color: #575757;
+}
 
+/* Spot / Membership */
+.membership-container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.membership-top-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 12px;
+
+}
+.membership-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color:#575757;
+    margin-bottom: 48px;
+
+}
+.membership-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.membership-cards{
+    background: white;
+    padding: 32px;
+    border: 1px solid #e5e7ebFF;
+    border-radius: 12px;
+}
+.membership-card2{
+    background-color: #0D1B2A;
+    color: white;
+}
+.membership-card3{
+    background: #f8f9fbFF;
+}
+.card-gray-text-top{
+    color:#575757;
+    font-size: 13;
+    font-weight: 600;
+}
+.card-gray-text-bottom{
+    color:#575757;
+    font-size: 13;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.member-blue-text{
+    color:#93C5FD;
+}
+.member-text-half{
+    opacity: 50%;
+    font-size: 13;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.membership-price{
+    font-size: 44px;
+    font-weight: 700;
+}
+.ul-list{
+    padding: 15px;
+}
+.ul-list li::marker{
+    color: #2563EB;
+}
+.ul-text{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+.ul-text-80{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    opacity: 80%;
+}
+.member-btn1{
+    color: #2563EB;
+    background-color: white;
+    border: 1px solid #2563EB;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+}
+.member-btn2{
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+}
+.member-btn3{
+    color: #0D1B2A;
+    background-color: #f8f9fbFF;
+    border: 1px solid #0D1B2A;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
 }
