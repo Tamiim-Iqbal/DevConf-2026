@@ -54,7 +54,7 @@ nav{
 
 }
 .banner-content{
-    padding: 140px 300px;
+    padding: 140px 250px;
     text-align: center;
 }
 .banner-title{
@@ -124,7 +124,7 @@ nav{
 
 /* Spot / Membership */
 .membership-container{
-    max-width: 75%;
+    max-width: 80%;
     margin: 0 auto;
 }
 .membership-top-title{
@@ -146,7 +146,7 @@ nav{
 .membership-content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 16px;
 }
 .membership-cards{
     background: white;
@@ -249,6 +249,7 @@ nav{
     grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 
