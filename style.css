@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin : 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.m-width{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+nav{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.cmn-btn{
+    padding: 12px 24px 12px 24px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #1D4ED8;
+    color: #ffffff;
+}
+.nav-links{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+    margin-left: 40px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+}
+
+
+/* Banner  */
+
+.banner-container{
+    background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 80%), 
+            url("./resources-DevConf-2026/assets/banner.jpg") center / cover no-repeat;
+
+}
+.banner-content{
+    padding: 140px 300px;
+    text-align: center;
+}
+.banner-title{
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+.banner-subtitle{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    
+}
+
+.banner-btn{
+    margin-top:350px;
+    padding: 18px 36px;
+    font-size: 20px;
+    font-weight: 700;
+}
